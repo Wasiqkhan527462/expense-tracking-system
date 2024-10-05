@@ -1,0 +1,21 @@
+.income-container {
+  display: flex; /* Use flexbox for layout */
+  padding: 20px;
+  gap: 20px; /* Space between form and list */
+}
+
+.income-form-container {
+  flex: 1; /* Takes up 50% of the width */
+  max-width: 400px; /* Limit width of form */
+}
+
+.income-list-container {
+  flex: 1; /* Takes up remaining space */
+  max-width: 600px; /* Limit width of list */
+  max-height: calc(100vh - 100px); /* Adjust this value based on your layout */
+  overflow-y: auto; /* Add scroll if needed */
+  background-color: #ffffff; /* White background for list */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the list */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for elevation effect */
+}

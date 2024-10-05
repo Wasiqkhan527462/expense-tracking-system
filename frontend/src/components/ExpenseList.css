@@ -1,0 +1,45 @@
+.expense-list {
+  padding: 20px;
+}
+
+.expense-list h2 {
+  margin-bottom: 20px;
+}
+
+.expense-item {
+  background-color: #f9f9f9; /* Light background for items */
+  border: 1px solid #e1e1e1; /* Border for separation */
+  border-radius: 5px; /* Rounded corners */
+  padding: 15px; /* Padding inside each item */
+  display: flex; /* Flex for layout */
+  justify-content: space-between; /* Space between details and button */
+  align-items: center; /* Center align items */
+  margin-bottom: 10px; /* Space between list items */
+  transition: background-color 0.3s; /* Smooth background change */
+}
+
+.expense-item:hover {
+  background-color: #eaeaea; /* Change background on hover */
+}
+
+.expense-details h3 {
+  margin: 0 0 5px; /* Margin for title */
+}
+
+.expense-details p {
+  margin: 3px 0; /* Margin for details */
+}
+
+.delete-button {
+  padding: 8px 12px;
+  background-color: #d9534f; /* Bootstrap red */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth background change */
+}
+
+.delete-button:hover {
+  background-color: #c9302c; /* Darker red on hover */
+}
